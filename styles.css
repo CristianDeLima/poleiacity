@@ -16,6 +16,7 @@
 body {
     background-color: var(--cor-background);
     min-height: 100vh;
+    position: relative;
 }
 
 .cabecalho {
@@ -103,14 +104,16 @@ body {
 }
 
 .rodape {
+    position: absolute;
+    min-width: 100%;
     background-color: var(--cor-secundaria);
     color: var(--cor-principal);
     text-align: center;
-    padding: 1rem;
-    margin-top: 0.7%;
+    bottom: 0px;
 }
 
 .rodape__titulo {
+    margin: 1rem;
     font-family: var(--fonte-montserrat);
     font-weight: 400;
     font-size: 1.5rem;
