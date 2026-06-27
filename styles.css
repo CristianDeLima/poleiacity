@@ -120,31 +120,3 @@ body {
     text-decoration: none;
     color: var(--cor-principal);
 }
-
-@media (max-width: 1200px) {
-    .principal {
-        flex-direction: column-reverse;
-    }
-    .cabecalho {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 2% 0%;
-    }
-
-    .container {
-        width: auto;
-    }
-}
-
-@media (max-width: 720px) {
-    .principal {
-        flex-direction: column-reverse;
-    }
-    .cabecalho {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 2% 0%;
-    }
-}
